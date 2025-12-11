@@ -22,7 +22,6 @@ students-own [
 ]
 
 tables-own [
-  is-occupied? 
   capacity 
 ]
 
@@ -261,8 +260,8 @@ end]]></code>
     <view x="830" wrappingAllowedX="true" y="20" frameRate="30.0" minPycor="-20" height="496" showTickCounter="true" patchSize="12.0" fontSize="10" wrappingAllowedY="true" width="496" tickCounterLabel="ticks" maxPycor="20" updateMode="1" maxPxcor="20" minPxcor="-20"></view>
     <button x="25" y="20" height="40" disableUntilTicks="false" forever="false" kind="Observer" width="55" display="setup">setup</button>
     <monitor x="485" precision="17" y="15" height="60" fontSize="11" width="100" display="students">count students</monitor>
-    <input x="205" multiline="false" y="15" height="60" variable="tables-count" type="number" width="250">5.0</input>
-    <input x="205" multiline="false" y="90" height="60" variable="students-count" type="number" width="250">100.0</input>
+    <input x="205" multiline="false" y="15" height="60" variable="tables-count" type="number" width="250">10.0</input>
+    <input x="205" multiline="false" y="90" height="60" variable="students-count" type="number" width="250">20.0</input>
     <plot x="595" autoPlotX="true" yMax="10.0" autoPlotY="true" yAxis="waiting time" y="15" xMin="0.0" height="175" legend="false" xMax="10.0" yMin="0.0" width="230" xAxis="student on queue" display="AVG waiting time">
       <setup></setup>
       <update></update>
@@ -273,9 +272,9 @@ end]]></code>
     </plot>
     <monitor x="485" precision="17" y="85" height="60" fontSize="11" width="100">avg-searching-time</monitor>
     <monitor x="485" precision="17" y="150" height="60" fontSize="11" width="100" display="avg-waiting-time">avg-waiting-time</monitor>
-    <input x="205" multiline="false" y="155" height="60" variable="cashers-count" type="number" width="250">8.0</input>
+    <input x="205" multiline="false" y="155" height="60" variable="cashers-count" type="number" width="250">2.0</input>
     <button x="90" y="20" height="40" disableUntilTicks="true" forever="true" kind="Observer" width="55" display="go">go</button>
-    <input x="205" multiline="false" y="225" height="60" variable="max-table-capacity" type="number" width="250">12.0</input>
+    <input x="205" multiline="false" y="225" height="60" variable="max-table-capacity" type="number" width="250">5.0</input>
   </widgets>
   <info>## WHAT IS IT?
 
